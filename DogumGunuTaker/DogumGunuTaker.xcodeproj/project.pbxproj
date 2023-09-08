@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CD418042AA9F0CE00E594CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD418032AA9F0CE00E594CD /* AppDelegate.swift */; };
+		0CD418062AA9F0CE00E594CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD418052AA9F0CE00E594CD /* SceneDelegate.swift */; };
+		0CD418082AA9F0CE00E594CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD418072AA9F0CE00E594CD /* ViewController.swift */; };
+		0CD4180B2AA9F0CE00E594CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD418092AA9F0CE00E594CD /* Main.storyboard */; };
+		0CD4180D2AA9F0CF00E594CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD4180C2AA9F0CF00E594CD /* Assets.xcassets */; };
+		0CD418102AA9F0CF00E594CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD4180E2AA9F0CF00E594CD /* LaunchScreen.storyboard */; };
+		0CD4181B2AA9F0CF00E594CD /* DogumGunuTakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD4181A2AA9F0CF00E594CD /* DogumGunuTakerTests.swift */; };
+		0CD418252AA9F0CF00E594CD /* DogumGunuTakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD418242AA9F0CF00E594CD /* DogumGunuTakerUITests.swift */; };
+		0CD418272AA9F0CF00E594CD /* DogumGunuTakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD418262AA9F0CF00E594CD /* DogumGunuTakerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CD418172AA9F0CF00E594CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CD417F82AA9F0CD00E594CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CD417FF2AA9F0CE00E594CD;
+			remoteInfo = DogumGunuTaker;
+		};
+		0CD418212AA9F0CF00E594CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CD417F82AA9F0CD00E594CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CD417FF2AA9F0CE00E594CD;
+			remoteInfo = DogumGunuTaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CD418002AA9F0CE00E594CD /* DogumGunuTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogumGunuTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD418032AA9F0CE00E594CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CD418052AA9F0CE00E594CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0CD418072AA9F0CE00E594CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CD4180A2AA9F0CE00E594CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CD4180C2AA9F0CF00E594CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CD4180F2AA9F0CF00E594CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CD418112AA9F0CF00E594CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CD418162AA9F0CF00E594CD /* DogumGunuTakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogumGunuTakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD4181A2AA9F0CF00E594CD /* DogumGunuTakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogumGunuTakerTests.swift; sourceTree = "<group>"; };
+		0CD418202AA9F0CF00E594CD /* DogumGunuTakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogumGunuTakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD418242AA9F0CF00E594CD /* DogumGunuTakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogumGunuTakerUITests.swift; sourceTree = "<group>"; };
+		0CD418262AA9F0CF00E594CD /* DogumGunuTakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogumGunuTakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CD417FD2AA9F0CE00E594CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD418132AA9F0CF00E594CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD4181D2AA9F0CF00E594CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CD417F72AA9F0CD00E594CD = {
+			isa = PBXGroup;
+			children = (
+				0CD418022AA9F0CE00E594CD /* DogumGunuTaker */,
+				0CD418192AA9F0CF00E594CD /* DogumGunuTakerTests */,
+				0CD418232AA9F0CF00E594CD /* DogumGunuTakerUITests */,
+				0CD418012AA9F0CE00E594CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CD418012AA9F0CE00E594CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CD418002AA9F0CE00E594CD /* DogumGunuTaker.app */,
+				0CD418162AA9F0CF00E594CD /* DogumGunuTakerTests.xctest */,
+				0CD418202AA9F0CF00E594CD /* DogumGunuTakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CD418022AA9F0CE00E594CD /* DogumGunuTaker */ = {
+			isa = PBXGroup;
+			children = (
+				0CD418032AA9F0CE00E594CD /* AppDelegate.swift */,
+				0CD418052AA9F0CE00E594CD /* SceneDelegate.swift */,
+				0CD418072AA9F0CE00E594CD /* ViewController.swift */,
+				0CD418092AA9F0CE00E594CD /* Main.storyboard */,
+				0CD4180C2AA9F0CF00E594CD /* Assets.xcassets */,
+				0CD4180E2AA9F0CF00E594CD /* LaunchScreen.storyboard */,
+				0CD418112AA9F0CF00E594CD /* Info.plist */,
+			);
+			path = DogumGunuTaker;
+			sourceTree = "<group>";
+		};
+		0CD418192AA9F0CF00E594CD /* DogumGunuTakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CD4181A2AA9F0CF00E594CD /* DogumGunuTakerTests.swift */,
+			);
+			path = DogumGunuTakerTests;
+			sourceTree = "<group>";
+		};
+		0CD418232AA9F0CF00E594CD /* DogumGunuTakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0CD418242AA9F0CF00E594CD /* DogumGunuTakerUITests.swift */,
+				0CD418262AA9F0CF00E594CD /* DogumGunuTakerUITestsLaunchTests.swift */,
+			);
+			path = DogumGunuTakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CD417FF2AA9F0CE00E594CD /* DogumGunuTaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD4182A2AA9F0CF00E594CD /* Build configuration list for PBXNativeTarget "DogumGunuTaker" */;
+			buildPhases = (
+				0CD417FC2AA9F0CE00E594CD /* Sources */,
+				0CD417FD2AA9F0CE00E594CD /* Frameworks */,
+				0CD417FE2AA9F0CE00E594CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogumGunuTaker;
+			productName = DogumGunuTaker;
+			productReference = 0CD418002AA9F0CE00E594CD /* DogumGunuTaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CD418152AA9F0CF00E594CD /* DogumGunuTakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD4182D2AA9F0CF00E594CD /* Build configuration list for PBXNativeTarget "DogumGunuTakerTests" */;
+			buildPhases = (
+				0CD418122AA9F0CF00E594CD /* Sources */,
+				0CD418132AA9F0CF00E594CD /* Frameworks */,
+				0CD418142AA9F0CF00E594CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CD418182AA9F0CF00E594CD /* PBXTargetDependency */,
+			);
+			name = DogumGunuTakerTests;
+			productName = DogumGunuTakerTests;
+			productReference = 0CD418162AA9F0CF00E594CD /* DogumGunuTakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CD4181F2AA9F0CF00E594CD /* DogumGunuTakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD418302AA9F0CF00E594CD /* Build configuration list for PBXNativeTarget "DogumGunuTakerUITests" */;
+			buildPhases = (
+				0CD4181C2AA9F0CF00E594CD /* Sources */,
+				0CD4181D2AA9F0CF00E594CD /* Frameworks */,
+				0CD4181E2AA9F0CF00E594CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CD418222AA9F0CF00E594CD /* PBXTargetDependency */,
+			);
+			name = DogumGunuTakerUITests;
+			productName = DogumGunuTakerUITests;
+			productReference = 0CD418202AA9F0CF00E594CD /* DogumGunuTakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CD417F82AA9F0CD00E594CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0CD417FF2AA9F0CE00E594CD = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0CD418152AA9F0CF00E594CD = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0CD417FF2AA9F0CE00E594CD;
+					};
+					0CD4181F2AA9F0CF00E594CD = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0CD417FF2AA9F0CE00E594CD;
+					};
+				};
+			};
+			buildConfigurationList = 0CD417FB2AA9F0CD00E594CD /* Build configuration list for PBXProject "DogumGunuTaker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CD417F72AA9F0CD00E594CD;
+			productRefGroup = 0CD418012AA9F0CE00E594CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CD417FF2AA9F0CE00E594CD /* DogumGunuTaker */,
+				0CD418152AA9F0CF00E594CD /* DogumGunuTakerTests */,
+				0CD4181F2AA9F0CF00E594CD /* DogumGunuTakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CD417FE2AA9F0CE00E594CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD418102AA9F0CF00E594CD /* LaunchScreen.storyboard in Resources */,
+				0CD4180D2AA9F0CF00E594CD /* Assets.xcassets in Resources */,
+				0CD4180B2AA9F0CE00E594CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD418142AA9F0CF00E594CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD4181E2AA9F0CF00E594CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CD417FC2AA9F0CE00E594CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD418082AA9F0CE00E594CD /* ViewController.swift in Sources */,
+				0CD418042AA9F0CE00E594CD /* AppDelegate.swift in Sources */,
+				0CD418062AA9F0CE00E594CD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD418122AA9F0CF00E594CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD4181B2AA9F0CF00E594CD /* DogumGunuTakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD4181C2AA9F0CF00E594CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD418272AA9F0CF00E594CD /* DogumGunuTakerUITestsLaunchTests.swift in Sources */,
+				0CD418252AA9F0CF00E594CD /* DogumGunuTakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CD418182AA9F0CF00E594CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CD417FF2AA9F0CE00E594CD /* DogumGunuTaker */;
+			targetProxy = 0CD418172AA9F0CF00E594CD /* PBXContainerItemProxy */;
+		};
+		0CD418222AA9F0CF00E594CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CD417FF2AA9F0CE00E594CD /* DogumGunuTaker */;
+			targetProxy = 0CD418212AA9F0CF00E594CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CD418092AA9F0CE00E594CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CD4180A2AA9F0CE00E594CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CD4180E2AA9F0CF00E594CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CD4180F2AA9F0CF00E594CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CD418282AA9F0CF00E594CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CD418292AA9F0CF00E594CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CD4182B2AA9F0CF00E594CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7935AUGAK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DogumGunuTaker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomadOS.DogumGunuTaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CD4182C2AA9F0CF00E594CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7935AUGAK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DogumGunuTaker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomadOS.DogumGunuTaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0CD4182E2AA9F0CF00E594CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7935AUGAK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomadOS.DogumGunuTakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogumGunuTaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DogumGunuTaker";
+			};
+			name = Debug;
+		};
+		0CD4182F2AA9F0CF00E594CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7935AUGAK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomadOS.DogumGunuTakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogumGunuTaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DogumGunuTaker";
+			};
+			name = Release;
+		};
+		0CD418312AA9F0CF00E594CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7935AUGAK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomadOS.DogumGunuTakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DogumGunuTaker;
+			};
+			name = Debug;
+		};
+		0CD418322AA9F0CF00E594CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7935AUGAK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomadOS.DogumGunuTakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DogumGunuTaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CD417FB2AA9F0CD00E594CD /* Build configuration list for PBXProject "DogumGunuTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD418282AA9F0CF00E594CD /* Debug */,
+				0CD418292AA9F0CF00E594CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CD4182A2AA9F0CF00E594CD /* Build configuration list for PBXNativeTarget "DogumGunuTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD4182B2AA9F0CF00E594CD /* Debug */,
+				0CD4182C2AA9F0CF00E594CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CD4182D2AA9F0CF00E594CD /* Build configuration list for PBXNativeTarget "DogumGunuTakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD4182E2AA9F0CF00E594CD /* Debug */,
+				0CD4182F2AA9F0CF00E594CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CD418302AA9F0CF00E594CD /* Build configuration list for PBXNativeTarget "DogumGunuTakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD418312AA9F0CF00E594CD /* Debug */,
+				0CD418322AA9F0CF00E594CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CD417F82AA9F0CD00E594CD /* Project object */;
+}

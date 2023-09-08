@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CD417CD2AA9F02A00E594CD /* BirtDayNoteTakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD417CC2AA9F02A00E594CD /* BirtDayNoteTakerApp.swift */; };
+		0CD417CF2AA9F02A00E594CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD417CE2AA9F02A00E594CD /* ContentView.swift */; };
+		0CD417D12AA9F02B00E594CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD417D02AA9F02B00E594CD /* Assets.xcassets */; };
+		0CD417D42AA9F02B00E594CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD417D32AA9F02B00E594CD /* Preview Assets.xcassets */; };
+		0CD417DF2AA9F02B00E594CD /* BirtDayNoteTakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD417DE2AA9F02B00E594CD /* BirtDayNoteTakerTests.swift */; };
+		0CD417E92AA9F02B00E594CD /* BirtDayNoteTakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD417E82AA9F02B00E594CD /* BirtDayNoteTakerUITests.swift */; };
+		0CD417EB2AA9F02B00E594CD /* BirtDayNoteTakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD417EA2AA9F02B00E594CD /* BirtDayNoteTakerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CD417DB2AA9F02B00E594CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CD417C12AA9F02A00E594CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CD417C82AA9F02A00E594CD;
+			remoteInfo = BirtDayNoteTaker;
+		};
+		0CD417E52AA9F02B00E594CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CD417C12AA9F02A00E594CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CD417C82AA9F02A00E594CD;
+			remoteInfo = BirtDayNoteTaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CD417C92AA9F02A00E594CD /* BirtDayNoteTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirtDayNoteTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD417CC2AA9F02A00E594CD /* BirtDayNoteTakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirtDayNoteTakerApp.swift; sourceTree = "<group>"; };
+		0CD417CE2AA9F02A00E594CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0CD417D02AA9F02B00E594CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CD417D32AA9F02B00E594CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CD417D52AA9F02B00E594CD /* BirtDayNoteTaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BirtDayNoteTaker.entitlements; sourceTree = "<group>"; };
+		0CD417DA2AA9F02B00E594CD /* BirtDayNoteTakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirtDayNoteTakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD417DE2AA9F02B00E594CD /* BirtDayNoteTakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirtDayNoteTakerTests.swift; sourceTree = "<group>"; };
+		0CD417E42AA9F02B00E594CD /* BirtDayNoteTakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirtDayNoteTakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD417E82AA9F02B00E594CD /* BirtDayNoteTakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirtDayNoteTakerUITests.swift; sourceTree = "<group>"; };
+		0CD417EA2AA9F02B00E594CD /* BirtDayNoteTakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirtDayNoteTakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CD417C62AA9F02A00E594CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD417D72AA9F02B00E594CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD417E12AA9F02B00E594CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CD417C02AA9F02A00E594CD = {
+			isa = PBXGroup;
+			children = (
+				0CD417CB2AA9F02A00E594CD /* BirtDayNoteTaker */,
+				0CD417DD2AA9F02B00E594CD /* BirtDayNoteTakerTests */,
+				0CD417E72AA9F02B00E594CD /* BirtDayNoteTakerUITests */,
+				0CD417CA2AA9F02A00E594CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CD417CA2AA9F02A00E594CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CD417C92AA9F02A00E594CD /* BirtDayNoteTaker.app */,
+				0CD417DA2AA9F02B00E594CD /* BirtDayNoteTakerTests.xctest */,
+				0CD417E42AA9F02B00E594CD /* BirtDayNoteTakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CD417CB2AA9F02A00E594CD /* BirtDayNoteTaker */ = {
+			isa = PBXGroup;
+			children = (
+				0CD417CC2AA9F02A00E594CD /* BirtDayNoteTakerApp.swift */,
+				0CD417CE2AA9F02A00E594CD /* ContentView.swift */,
+				0CD417D02AA9F02B00E594CD /* Assets.xcassets */,
+				0CD417D52AA9F02B00E594CD /* BirtDayNoteTaker.entitlements */,
+				0CD417D22AA9F02B00E594CD /* Preview Content */,
+			);
+			path = BirtDayNoteTaker;
+			sourceTree = "<group>";
+		};
+		0CD417D22AA9F02B00E594CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0CD417D32AA9F02B00E594CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0CD417DD2AA9F02B00E594CD /* BirtDayNoteTakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CD417DE2AA9F02B00E594CD /* BirtDayNoteTakerTests.swift */,
+			);
+			path = BirtDayNoteTakerTests;
+			sourceTree = "<group>";
+		};
+		0CD417E72AA9F02B00E594CD /* BirtDayNoteTakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0CD417E82AA9F02B00E594CD /* BirtDayNoteTakerUITests.swift */,
+				0CD417EA2AA9F02B00E594CD /* BirtDayNoteTakerUITestsLaunchTests.swift */,
+			);
+			path = BirtDayNoteTakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CD417C82AA9F02A00E594CD /* BirtDayNoteTaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD417EE2AA9F02B00E594CD /* Build configuration list for PBXNativeTarget "BirtDayNoteTaker" */;
+			buildPhases = (
+				0CD417C52AA9F02A00E594CD /* Sources */,
+				0CD417C62AA9F02A00E594CD /* Frameworks */,
+				0CD417C72AA9F02A00E594CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirtDayNoteTaker;
+			productName = BirtDayNoteTaker;
+			productReference = 0CD417C92AA9F02A00E594CD /* BirtDayNoteTaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CD417D92AA9F02B00E594CD /* BirtDayNoteTakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD417F12AA9F02B00E594CD /* Build configuration list for PBXNativeTarget "BirtDayNoteTakerTests" */;
+			buildPhases = (
+				0CD417D62AA9F02B00E594CD /* Sources */,
+				0CD417D72AA9F02B00E594CD /* Frameworks */,
+				0CD417D82AA9F02B00E594CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CD417DC2AA9F02B00E594CD /* PBXTargetDependency */,
+			);
+			name = BirtDayNoteTakerTests;
+			productName = BirtDayNoteTakerTests;
+			productReference = 0CD417DA2AA9F02B00E594CD /* BirtDayNoteTakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CD417E32AA9F02B00E594CD /* BirtDayNoteTakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD417F42AA9F02B00E594CD /* Build configuration list for PBXNativeTarget "BirtDayNoteTakerUITests" */;
+			buildPhases = (
+				0CD417E02AA9F02B00E594CD /* Sources */,
+				0CD417E12AA9F02B00E594CD /* Frameworks */,
+				0CD417E22AA9F02B00E594CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CD417E62AA9F02B00E594CD /* PBXTargetDependency */,
+			);
+			name = BirtDayNoteTakerUITests;
+			productName = BirtDayNoteTakerUITests;
+			productReference = 0CD417E42AA9F02B00E594CD /* BirtDayNoteTakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CD417C12AA9F02A00E594CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0CD417C82AA9F02A00E594CD = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0CD417D92AA9F02B00E594CD = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0CD417C82AA9F02A00E594CD;
+					};
+					0CD417E32AA9F02B00E594CD = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0CD417C82AA9F02A00E594CD;
+					};
+				};
+			};
+			buildConfigurationList = 0CD417C42AA9F02A00E594CD /* Build configuration list for PBXProject "BirtDayNoteTaker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CD417C02AA9F02A00E594CD;
+			productRefGroup = 0CD417CA2AA9F02A00E594CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CD417C82AA9F02A00E594CD /* BirtDayNoteTaker */,
+				0CD417D92AA9F02B00E594CD /* BirtDayNoteTakerTests */,
+				0CD417E32AA9F02B00E594CD /* BirtDayNoteTakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CD417C72AA9F02A00E594CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD417D42AA9F02B00E594CD /* Preview Assets.xcassets in Resources */,
+				0CD417D12AA9F02B00E594CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD417D82AA9F02B00E594CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD417E22AA9F02B00E594CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CD417C52AA9F02A00E594CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD417CF2AA9F02A00E594CD /* ContentView.swift in Sources */,
+				0CD417CD2AA9F02A00E594CD /* BirtDayNoteTakerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD417D62AA9F02B00E594CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD417DF2AA9F02B00E594CD /* BirtDayNoteTakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD417E02AA9F02B00E594CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD417EB2AA9F02B00E594CD /* BirtDayNoteTakerUITestsLaunchTests.swift in Sources */,
+				0CD417E92AA9F02B00E594CD /* BirtDayNoteTakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CD417DC2AA9F02B00E594CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CD417C82AA9F02A00E594CD /* BirtDayNoteTaker */;
+			targetProxy = 0CD417DB2AA9F02B00E594CD /* PBXContainerItemProxy */;
+		};
+		0CD417E62AA9F02B00E594CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CD417C82AA9F02A00E594CD /* BirtDayNoteTaker */;
+			targetProxy = 0CD417E52AA9F02B00E594CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CD417EC2AA9F02B00E594CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CD417ED2AA9F02B00E594CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0CD417EF2AA9F02B00E594CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BirtDayNoteTaker/BirtDayNoteTaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BirtDayNoteTaker/Preview Content\"";
+				DEVELOPMENT_TEAM = 7935AUGAK5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomadOS.BirtDayNoteTaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0CD417F02AA9F02B00E594CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BirtDayNoteTaker/BirtDayNoteTaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BirtDayNoteTaker/Preview Content\"";
+				DEVELOPMENT_TEAM = 7935AUGAK5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomadOS.BirtDayNoteTaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0CD417F22AA9F02B00E594CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7935AUGAK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomadOS.BirtDayNoteTakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirtDayNoteTaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BirtDayNoteTaker";
+			};
+			name = Debug;
+		};
+		0CD417F32AA9F02B00E594CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7935AUGAK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomadOS.BirtDayNoteTakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirtDayNoteTaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BirtDayNoteTaker";
+			};
+			name = Release;
+		};
+		0CD417F52AA9F02B00E594CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7935AUGAK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomadOS.BirtDayNoteTakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BirtDayNoteTaker;
+			};
+			name = Debug;
+		};
+		0CD417F62AA9F02B00E594CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7935AUGAK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomadOS.BirtDayNoteTakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BirtDayNoteTaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CD417C42AA9F02A00E594CD /* Build configuration list for PBXProject "BirtDayNoteTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD417EC2AA9F02B00E594CD /* Debug */,
+				0CD417ED2AA9F02B00E594CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CD417EE2AA9F02B00E594CD /* Build configuration list for PBXNativeTarget "BirtDayNoteTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD417EF2AA9F02B00E594CD /* Debug */,
+				0CD417F02AA9F02B00E594CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CD417F12AA9F02B00E594CD /* Build configuration list for PBXNativeTarget "BirtDayNoteTakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD417F22AA9F02B00E594CD /* Debug */,
+				0CD417F32AA9F02B00E594CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CD417F42AA9F02B00E594CD /* Build configuration list for PBXNativeTarget "BirtDayNoteTakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD417F52AA9F02B00E594CD /* Debug */,
+				0CD417F62AA9F02B00E594CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CD417C12AA9F02A00E594CD /* Project object */;
+}
