@@ -16,6 +16,7 @@
 		0C19D5802AB397C300983516 /* LetMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19D57F2AB397C300983516 /* LetMusicTests.swift */; };
 		0C19D58A2AB397C300983516 /* LetMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19D5892AB397C300983516 /* LetMusicUITests.swift */; };
 		0C19D58C2AB397C300983516 /* LetMusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19D58B2AB397C300983516 /* LetMusicUITestsLaunchTests.swift */; };
+		0CBC67B42AB62F4D00D46635 /* Audiowide-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CBC67B32AB62F4D00D46635 /* Audiowide-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0C19D5852AB397C300983516 /* LetMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C19D5892AB397C300983516 /* LetMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetMusicUITests.swift; sourceTree = "<group>"; };
 		0C19D58B2AB397C300983516 /* LetMusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetMusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CBC67B32AB62F4D00D46635 /* Audiowide-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Audiowide-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		0C19D5672AB397C200983516 /* LetMusic */ = {
 			isa = PBXGroup;
 			children = (
+				0CBC67B32AB62F4D00D46635 /* Audiowide-Regular.ttf */,
 				0C19D5682AB397C200983516 /* AppDelegate.swift */,
 				0C19D56A2AB397C200983516 /* SceneDelegate.swift */,
 				0C19D56C2AB397C200983516 /* ViewController.swift */,
@@ -234,6 +237,7 @@
 				0C19D5752AB397C300983516 /* LaunchScreen.storyboard in Resources */,
 				0C19D5722AB397C300983516 /* Assets.xcassets in Resources */,
 				0C19D5702AB397C200983516 /* Main.storyboard in Resources */,
+				0CBC67B42AB62F4D00D46635 /* Audiowide-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
