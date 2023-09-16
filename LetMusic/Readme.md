@@ -1,4 +1,4 @@
-# Latince UniversumMusica
+#  UniversumMusica
 
 ## Tanıtım
 Basit bir müzik uygulaması amacıyla tasarlandı 
