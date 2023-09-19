@@ -1,4 +1,4 @@
 
 ## GIF
 
-![Uploading tenor.gif…]()
+![Uygulama Ekran Kaydı](tenor.gif)
