@@ -1,3 +1,3 @@
 # techCareerIOS
 
-![Uploading amazonca.png…]()
+
